@@ -1,0 +1,9 @@
+{
+	"name": "onesideadfsr",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1d9284bb-d7bf-47c1-80f1-2cce0860cbbd",
+		"tenantId": "a76707e2-1c86-48f8-b86c-8c281daae8c9"
+	}
+}
