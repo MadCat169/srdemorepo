@@ -1,0 +1,44 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "events.csv",
+				"container": "local"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "event",
+				"type": "String"
+			},
+			{
+				"name": "tag",
+				"type": "String"
+			},
+			{
+				"name": "sport",
+				"type": "String"
+			},
+			{
+				"name": "sport_code",
+				"type": "String"
+			},
+			{
+				"name": "sport_url",
+				"type": "String"
+			}
+		]
+	}
+}
