@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "onesideadfsr"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
